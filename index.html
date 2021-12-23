@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="section__container">
+        <form action="" class="section__form">
+          <label for="firstNum">Перше число</label>
+          <input
+            type="number"
+            class="form__input"
+            id="firstNum"
+            placeholder="введить перше число"
+          />
+          <select name="select" id="operator">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+          </select>
+          <label for="secondNum">Друге число</label>
+          <input
+            type="number"
+            class="form__input"
+            id="secondNum"
+            placeholder="введить друге число"
+          />
+          <input type="submit" class="form__submit" value="Посчитать" />
+        </form>
+        <p>Результат: <span class="out"></span></p>
+      </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.section__container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.section__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  margin-bottom: 20px;
+}
+
+#operator {
+  margin-bottom: 20px;
+}
